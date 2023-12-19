@@ -1,0 +1,157 @@
+body {
+  	font-family:helvetica;
+  	margin: 5px;
+}
+
+header{
+  	color: black;
+	margin-top: 50px;
+	font-size: 30px;
+	width: 100%;
+	font-weight: bold;
+	margin-top: 10px;
+	display: block;
+}
+
+
+label {
+  	display: block;
+  	margin-top: 10px;}
+
+
+input,
+select{
+	width: 150px;
+    height: 30px;
+	font-size: 15px;
+	background-color:rgb(31, 31, 31);
+	border:none;
+	color:white;
+	margin:3px;	
+	margin-top: 20px;
+}
+
+button {
+	width: 100px;
+    height: 45px;
+	font-size: 15px;
+	background-color:rgb(31, 31, 31);
+	border:none;
+	color:white;
+	margin:3px;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+button:hover {
+  background-color:rgb(153, 153, 5);
+  color: white;
+}
+
+.degrade{
+	background: url("https://img.freepik.com/vetores-premium/fundo-de-dinheiro-de-dolar-de-ouro-de-moedas-de-desenho-animado_313905-889.jpg?w=2000");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height:92vh;
+	font-family:helvetica;
+	text-align:center;
+}	
+
+
+.outer-container {
+	margin: 0 auto;
+	text-align:center;
+    padding: 20px; /* Espaçamento interno */
+	border-radius: 10px; /* Valor do raio do arredondamento */
+    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+	border-radius: 20%;
+
+}
+
+.conversorMoedas{
+	position:absolute;
+	background:linear-gradient(to bottom, rgb(240, 240, 51), rgb(229, 229, 170));
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:20px;
+	height: 400px;
+	width: 350px;
+	border-radius: 20%;
+	font-family:helvetica;
+	font-size: 23px;
+	color: black;
+	overflow: hidden;
+	box-shadow: 0 0 30px rgb(0, 0, 0);
+
+}
+
+.interior{
+	margin-top: 30px;
+}
+
+.result-container{
+	margin-top: 10px;
+	/*background-color: #f2f2f2;*/
+	padding: 0px;
+	border-radius: 5px;
+	text-align:center;
+	align-items: center;
+	font-family:helvetica;
+	color: black;
+}
+
+footer {
+    background: #2c2045;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+	width: 85%;
+}
+
+.social-icons a {
+    font-size: 20px;
+    margin: 0 10px;
+	color: black;
+	font-size: 35px;
+}
+
+.social-icons a:hover {
+    color: yellow; /* Ou a cor desejada para o hover */
+}
+
+footer{
+	background-color: black;
+}
+
+footer a{
+	text-decoration: none;
+	color: lightgray;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+
+#moeda{
+	width: 45%;
+	background-color: white;
+	color: black;
+}
+
+#valor{
+	width: 55%;
+	background-color: white;
+	color: black;
+}
